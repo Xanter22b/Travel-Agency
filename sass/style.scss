@@ -1,0 +1,664 @@
+
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('../fonts/aleo/regular/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aleo/regular/aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$aleo: 'aleoregular', Arial, sans-serif;
+$josefin:'Josefin Sans', Arial, sans-serif;
+
+*{
+  margin:0;
+  box-sizing: border-box;
+   
+  }
+ 
+}
+body{
+  width: 1770px;
+  border: 15px solid white;
+}
+
+
+.header_wrapper{
+  width: 36.8%;
+  height: 338px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+    span{
+      font-family: $josefin;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 2.8px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 110px;
+      
+    }
+    img{
+
+      margin-top:15px;
+    }
+ 
+}
+
+
+header{
+  width: 100%;
+  height: 820px;
+  background-image: url('../img/Header_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 265px;
+  position: relative;
+    h1{
+      height: 40px;
+      font-family: $josefin;
+      font-size: 48px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 4.8px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin:0;
+      
+    }
+    h2{
+      font-family: $josefin;
+      font-size: 22px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 6.8px;
+      text-align: center;
+      color: #ffffff;
+      margin-top:15px;
+      
+    }
+  
+}
+
+form{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 50px;
+}
+
+
+  
+
+    .input_search{
+      width: 76.9%;
+      height: 60px;
+      font-family: $josefin;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: 2.8px;
+      text-align: center;
+    }
+   
+  
+
+
+input::-webkit-input-placeholder { 
+   color: #999999;; 
+} 
+
+ .search_button {
+      width: 23.1%;
+      height: 60px;
+      position: relative;
+      right:0;
+      top:0;
+      background-color: #5474fd;
+      border: solid 2px #ffffff;
+      position: relative;
+      
+      p{
+        font-family: $aleo;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: 1.4px;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 24px;
+       
+        
+      }
+      img{
+        position: absolute;
+        right: 17px;
+        top: 21px;
+        margin-top:0;
+      }
+
+    
+}
+/* NAVIGATION */
+.navigation{
+  height: 80px;
+  width: 100%;
+  background-color: #5474fd;
+  position: absolute;
+  bottom:0;
+}
+
+.navigation_wrapper{
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p{
+    font-family: $josefin;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+ 
+  
+
+
+
+{
+  display: flex;
+  list-style-type: none;
+  width: 525px;
+  justify-content: space-between;
+  
+   li{
+    font-family: $aleo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  li:hover{
+    cursor:pointer;
+    
+  }
+  
+}
+
+/* HEADER */
+/* WHY_CHOOSE_US */
+
+.why_choose_us{
+  width: 100%;
+  height: 685px;
+  background-image: url('../img/why_choose_us_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.why_choose_us_wrapper{
+  display: flex;
+  width: 1110px;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 120px;
+}
+
+
+
+.text_wrapper{
+  width: 540px;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 86px;
+  
+
+
+
+    h1{
+      margin:0;
+      font-family: $aleo;
+      font-size: 36px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.72;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      
+    }
+    p{
+      font-family: $josefin;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.63;
+      text-align: left;
+      color: #e8e8e8;
+      white-space: pre;
+      margin-top:61px;
+      }
+      .explore_places{
+         width: 225px;
+        height: 60px;
+        background-color: #5474fd;
+        margin-top:48px;
+        p{
+          font-family: $aleo;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.63;
+          letter-spacing: 1.2px;
+          text-align: center;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin:0;
+        }
+      }
+
+}
+
+
+
+.images_wrapper{
+  display: flex;
+  flex-direction: column;
+  height:445px;
+  width: 475px;
+  justify-content: space-between;
+  position: relative;
+  
+  
+  
+  
+}
+
+
+.why_choose_us_first_image{
+   width: 350px;
+  height: 220px;
+  background-image: url('../img/why_choose_us_2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why_choose_us_second_image{
+   width: 350px;
+  height: 220px;
+  background-image: url('../img/why_choose_us_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right:0;
+  bottom: 0;
+}
+
+/* HOWITWORKS */
+
+.how_it_works{
+  width: 100%;
+  height: 337px;
+  background-color: #333333;
+}
+
+.how_it_works_wrapper{
+  width: 1110px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how_it_works_icon{
+  width: 347px;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+    p{
+      font-family: $aleo;
+      font-size: 36px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.72;
+      letter-spacing: normal;
+      text-align: center;
+      color: #e8e8e8;
+      margin-top: 34px;
+    }
+    img{
+      margin-top: 100px;
+    }
+    img:hover,
+    p:hover{
+      cursor: pointer;
+    }
+}
+
+/* BOOK NOW 1SECTION */
+.book_now_first_section{
+  width: 100%;
+  height: 700px;
+  background-image: url('../img/book_now_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+.book_now_order{
+   width: 540px;
+  height: 371px;
+  opacity: 0.9;
+  background-color: #232323;
+  left: 315px;
+  position: relative;
+  top: 229px;
+  padding-left: 30px;
+  padding-top:50px;
+    h3{
+      font-family: $josefin;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      
+      letter-spacing: 1.5px;
+      text-align: left;
+      color: #e8e8e8;
+     
+    }
+    h4{
+      font-family: $josefin;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      margin-top: 30px;
+      
+    }
+    p{
+      font-family: $josefin;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+     
+      letter-spacing: normal;
+      text-align: left;
+      color: #e8e8e8;
+      margin-top:29px;
+      
+      }
+    button{
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      margin-top:48px;
+      
+     
+      p{
+        font-family: $aleo;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+       
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+   }
+ 
+}
+
+ 
+}
+
+/* BOOK NOW 2SECTION */
+.book_now_second_section{
+  width: 100%;
+  height: 700px;
+  background-image: url('../img/book_now2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+.book_now_order{
+   width: 540px;
+  height: 371px;
+  opacity: 0.9;
+  background-color: #232323;
+  left: 885px;
+  position: relative;
+  top: 229px;
+  padding-left: 30px;
+  padding-top:50px;
+    h3{
+      font-family: $josefin;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 1.5px;
+      text-align: left;
+      color: #e8e8e8;
+     
+    }
+    h4{
+      font-family: $josefin;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      margin-top: 30px;
+      
+    }
+    p{
+      font-family: $josefin;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+     
+      letter-spacing: normal;
+      text-align: left;
+      color: #e8e8e8;
+      margin-top:29px;
+      
+      }
+    button{
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      margin-top:48px;
+     
+      p{
+        font-family: $aleo;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+       
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+   } 
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+  width: 100%;
+  height: 731px;
+  background-image: url('../img/testimonials_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    h3{
+       font-family: $aleo;
+        font-size: 36px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 120px;
+      
+    }
+
+  
+}
+.tourist{
+  width: 1110px;
+  height: 284px;
+  background-color: green;
+  display: flex;
+  margin: auto;
+  margin-top: 94px;
+  
+
+
+
+
+
+
+ .testimonial_image{
+      background-image: url('../img/testimonials_1.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40%;
+      height: 284px;
+      
+      
+    }
+    .tourist_citation{ 
+      width: 60%;
+      height: 284px;
+      background-color: #333333;
+      padding-left:60px;
+        p:first-child{
+          font-family: $josefin;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #fefefe;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        p:last-child{
+          font-family: $josefin;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.63;
+          letter-spacing: normal;
+          text-align: left;
+          color: #e8e8e8;
+          margin-top:33px;
+        }
+       
+    }
+
+  }
+
+  .buttons{
+    display: flex;
+    margin-top:30px;
+    margin-left: 1250px;
+    width: 175px;
+    justify-content: space-between;
+  }
+
+  .button_arrow{
+    width: 80px;
+  height: 50px;
+  border: solid 1px #ffffff;
+  display:flex;
+  justify-content: center;
+  }
+
+  .button_arrow:hover{
+    cursor:pointer;
+  }
+
+/* FOOTER */
+footer{
+  width: 1770px;
+  height: 268px;
+  background-color: #232323;
+  padding-top:120px;
+    p:first-child{
+      font-family: $josefin;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 3.4px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      
+    }
+    p:nth-child(2){
+      font-family: $josefin;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 1.6px;
+      text-align: center;
+      color: #ffffff;
+      margin-top:15px;
+    }
+
+
+}
